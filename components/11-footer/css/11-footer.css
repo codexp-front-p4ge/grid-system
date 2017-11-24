@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem;
+    background-color: grey; 
+}
+
+.footer__list {
+    display: flex;
+    list-style: none; 
+    justify-content: space-between;
+}
+
+.footer__list a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
