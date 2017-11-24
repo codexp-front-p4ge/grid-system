@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.header {
+    /* background-color: gray; */
+    height: 60px;
+}
+
+.logo-circle {
+    height: 100%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.logo-imagem-size {
+    width: 50%;
+}
+
+
+/* inicio nav */
+
+.nav--padding {
+    padding: 15px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav__img {
+    width: 40px;
+    opacity: 0.6;
+}
+
+.nav__list {
+    display: none;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav--padding {
+        padding: 25px;
+    }
+    .nav__img {
+        display: none;
+    }
+    .nav__list {
+        display: flex;
+    }
+    .nav__list-item {
+        width: 70px;
+        height: 10px;
+        margin: 0 2%;
+        padding: 0;
+        background: grey;
+    }
+}
