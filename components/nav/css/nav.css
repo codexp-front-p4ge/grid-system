@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+.nav {
+    float: right;
+    padding: 5%;
+}
+
+.nav__img {
+    width: 40px;
+    opacity: 0.6;
+}
+
+.nav__list {
+    display: none;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .nav__img {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__list-item {
+        width: 70px;
+        height: 10px;
+        margin: 0 2%;
+        padding: 0;
+        background: grey;
+    }
+}
